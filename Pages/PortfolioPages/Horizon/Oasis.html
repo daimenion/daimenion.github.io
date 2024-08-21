@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title> Minxu Huang </title>
+        <link rel="stylesheet" href="../../../Asset/css/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section id = "header">
+            <header>
+                <h1> Minxu Huang</h1>
+            </header>
+        </section>
+        <section id = "wrapper">
+            <div class="CenterDiv">
+                <div class="navbar">
+                    <a href="../../../index.html">Home</a>
+                    <a href="../../AboutMe.html">About Me</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Portfolio 
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="Oasis.html">Meta Horizon: Asgard's Wrath 2 Oasis</a>
+                            <a href="CreatureFeature.html">Meta Horizon: Creature Feature</a>
+                        </div>
+                    </div> 
+                    <div class="dropdown">
+                        <button onclick= "window.location.href = '../../OtherProjects.html';" class="dropbtn">Other Projects 
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="../../OtherProjectPages/Farmed%20and%20Dangerous.html">Farmed and Dangerous</a>
+                            <a href="../../OtherProjectPages/ReturnHome.html">Return Home</a>
+                            <a href="../../OtherProjectPages/HellOfABoss.html">Hell of A Boss</a>
+                            <a href="../../OtherProjectPages/HavocHighway.html">Havoc Highway</a>
+                        </div>
+                    </div>
+                    <a href="../../../Asset/Resume_Minxu_Huang.pdf" download>Resume <span class ="fa fa-download"></span></a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="content-container">
+                    <h2 style="font-size: 35px">Asgard’s Wrath 2 Oasis </h2> <br/>
+                    <p>
+                        <i>Asgard’s Wrath 2 Oasis is an intriguing new companion world for the epic VR Action-RPG Asgard’s Wrath 2.</i>
+                        I was tasked with designing the crafting system which became the primary retention feature, successfully drawing players back into the game.
+                    </p>
+                    <ul>
+                        My responsibilities included:
+                        <li>Implemented the VR version of the crafting menu UI</li>
+                        <li>Designed recipes</li>
+                        <li>Designed and implemented loot distribution</li>
+                        <ul>
+                            <li>Chests</li>
+                            <li>Crates</li>
+                            <li>Ore Nodes</li>
+                        </ul>
+                        <li>Materials</li>
+                        <li>Placements of loots</li>
+                        <li>Balance loot spawn rates</li>
+                        <li>Pop-ups for VR, Mobile, and desktop</li>
+                        <li>Polish and bug fixes</li>
+                    </ul>
+                    <p>There’s an invisible inventory that stores all the materials players collect, which can be viewed through the menu. Implementing a visible inventory would have required more resources than we had available.</p>
+                    <img src="../../../Images/OasisPics/CraftingMenuTorsoCrop.png" width="80%" height="50%">
+                    <p>Chests, crates, and ore pillars are the primary ways for players to collect materials, each offering unique VR interactions. They were balanced to ensure that players could craft everything the world has to offer within just a few sessions. </p>
+
+                    <p>Crates are the most common, appearing in various locations with the largest item pool. While ore pillars are confined to a specific region, providing similar types of materials. This design encourages players to explore new areas, increasing the likelihood of encountering other players and fostering social interaction.</p>
+                    <img src="../../../Images/OasisPics/CratesCrop.png" width="40%" height="39%">
+                    <img src="../../../Images/OasisPics/OreNodeDrops.png" width="40%" height="39%">
+
+                    <p>There are only four chests in the world, each containing a predetermined rare material. These chests reward players’ curiosity, motivating them to explore every corner of the map and ensuring they can craft at least one item from the crafting menu.</p>
+                    <img src="../../../Images/OasisPics/ChestCrop.png" width="40%" height="39%">
+                    <img src="../../../Images/OasisPics/OpenChestCrop.png" width="40%" height="39%">
+
+                    <p>Pop-ups were designed to appear in various locations, triggered by different events, and customized with unique icons, backgrounds, sizes, priorities, and platforms. We explored several approaches and ultimately decided to store large data packages at the start, then parse and modify them to create the appropriate pop-up for each situation.</p>
+                    <img src="../../../Images/OasisPics/PopUp.png" width="40%" height="39%">
+                    <img src="../../../Images/OasisPics/PopUp2.PNG" width="40%" height="39%">
+                    
+                    <h3>Project Details:</h3>
+                    <ul>
+                        <li><b>Studio:</b> Archiact VR </li>
+                        <li><b>Platform:</b> VR, Mobile, and Desktop / Web </li>
+                        <li><b>Languages Used:</b> Codeblock and Typescript </li>
+                    </ul>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <div class="contact-container">
+                    <dic class ="contact" id = "contact">
+                        <h3>Contact Me:</h3>
+                        <p>
+                            647-988-6663<br/>
+                            <a href="mailto: minxuhuang@hotmail.com" class ="fa fa-envelope"> </a>
+                            <a href="https://www.linkedin.com/in/minxu-huang-ba4596140/" class="fa fa-linkedin"> </a>
+                            <a href="https://github.com/daimenion" class="fa fa-github"> </a>
+                        </p>
+                    </dic>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
