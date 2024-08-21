@@ -210,7 +210,7 @@ body {
     background-color: grey;
 }
 .contact {
-    width: 20%;
+    width: auto;
     height: 90%;
     text-align: center;
 }
