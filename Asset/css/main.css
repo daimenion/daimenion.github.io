@@ -296,14 +296,21 @@ body {
     .contact a{
         font-size: 15px;
     }
+    .contact a{
+        border: 8px solid dimgray;
+    }
+    .contact a:hover{
+        border: 8px solid darkgrey;
+    }
     .contact p {
         font-size:15px;
+        border-radius: 0;
     }
     .navbar a {
-        font-size:10px;
+        font-size:8px;
     }
     .dropdown .dropbtn{
-        font-size:10px;
+        font-size:8px;
     }
     .content-container h2{
         font-size:25px;
