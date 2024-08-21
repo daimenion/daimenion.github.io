@@ -2,12 +2,6 @@ html{
     scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 600px) {
-  .contact a{
-    font-size: 10px;
-  }
-}
-
 h1{
     margin: 0;
     padding: 0;
@@ -122,21 +116,22 @@ body {
 /** projects display Section **/
 .section-container{
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     overflow: auto;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    overflow-y: hidden;
 }
 .section {
     width: 500px;
     height: 800px;
-    margin-left: 20px;
     display: inline-block;
     background-color: darkgrey;
     justify-content: center;
     align-items: center;
+    border: 10px solid #222222;
 }
 
 .section-img-container{
@@ -296,3 +291,21 @@ body {
     clear: both;
 }
 /** General**/ 
+
+@media screen and (max-width: 600px) {
+    .contact a{
+        font-size: 15px;
+    }
+    .contact p {
+        font-size:15px;
+    }
+    .navbar a {
+        font-size:10px;
+    }
+    .dropdown .dropbtn{
+        font-size:10px;
+    }
+    .content-container h2{
+        font-size:25px;
+    }
+}
