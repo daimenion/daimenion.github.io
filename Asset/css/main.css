@@ -1,0 +1,293 @@
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    vertical-align:middle;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#222222;
+    overflow-x: hidden;
+}
+/**  Home page center and navbar**/
+.CenterDiv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 1115px;
+    margin: 20px auto 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: flex; 
+    justify-content: center; 
+    width: 175%;
+    margin-left: -37.5%;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/** Header texts, slides **/
+.header{
+    width: 175%;
+    height: 65%;
+    margin-left: -37.5%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+
+}
+.header img{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.Hcentertext{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+.mySlides{
+    display: none;
+}
+/** projects display Section **/
+.section-container{
+    width: 175%;
+    height: 100%;
+    margin-left: -37.5%;
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section {
+    width: 500px;
+    height: 800px;
+    margin-left: 20px;
+    display: inline-block;
+    background-color: darkgrey;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img-container{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.section-img{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 3.5%;
+
+}
+.section-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.section-text-container{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.section-text{
+
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 3.5%;
+    word-wrap: break-word;
+    text-align: center;
+}
+.section-text p a{
+    width: 5%;
+    height: 5%;
+    color: black;
+    text-decoration: none;
+    border:20px solid grey; 
+    background-color:grey;
+
+}
+.section-text p a:hover{
+    border:20px solid dimgray; 
+    background-color: dimgray;
+}
+/** Tags not in use **/
+.tags-container{
+    width: 100%;
+    height: 20px;
+}
+
+.tags{
+    height: 20px;
+    border-radius: 4px;
+    min-width: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #813772;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+/** Contact Section **/
+.contact-container{
+    width: 175%;
+    height: 20%;
+    margin-left: -37.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.contact {
+    width: 20%;
+    height: 90%;
+    text-align: center;
+}
+.contact p {
+    font-size:20px;
+}
+
+.contact a {
+    font-size:30px;
+    color:inherit;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 12px solid dimgray;
+    background-color: dimgray;
+}
+
+.contact a:hover{
+    border: 12px solid darkgrey;
+    background-color: darkgrey;
+}
+
+/** Detailed project page sontent **/
+.content-container{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    background-color: darkgrey;
+    text-align:center;
+    border-radius: 50px;
+
+}
+.content{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.content-img {
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-text {
+    width: 100%;
+    height: auto;
+}
+
+.content-container ul{
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+}
+
+.content img {
+
+}
+
+/** About me **/
+.AboutMe {
+
+}
+.AboutMe img{
+    width: 75%;
+    height: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/** General**/ 
