@@ -294,23 +294,21 @@ body {
 
 @media screen and (max-width: 600px) {
     .contact a{
-        font-size: 15px;
-    }
-    .contact a{
-        border: 8px solid dimgray;
+        font-size: 2vh;
+        border: 2vh solid dimgray;
     }
     .contact a:hover{
-        border: 8px solid darkgrey;
+        border: 2vh solid darkgrey;
     }
     .contact p {
-        font-size:15px;
+        font-size:2vh;
         border-radius: 0;
     }
     .navbar a {
-        font-size:8px;
+        font-size:2.2vw;
     }
     .dropdown .dropbtn{
-        font-size:8px;
+        font-size:2.2vw;
     }
     .content-container h2{
         font-size:25px;
